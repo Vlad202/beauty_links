@@ -1,0 +1,53 @@
+@import "../../assets/scss/common";
+@import "../../assets/scss/widths";
+
+.HeaderText {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.Description {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #333333;
+}
+.DockHeaderBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.DocBlock {
+    margin-top: 20px;
+    font-family: Gilroy;
+    line-height: 25px;
+}
+.DocBlock u {
+    text-decoration: none;
+}
+.DocBlock strong {
+    padding-top: 30px;
+}
+.DocBlock p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

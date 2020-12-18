@@ -1,0 +1,26 @@
+@import "../../assets/scss/common";
+@import "../../assets/scss/widths";
+
+
+.BreadCrumbsBlock {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.BreadCrumbsBlock a, .BreadCrumbsBlock span {
+    text-decoration: none;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.4604px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #00C6C6;
+    padding: 5px;
+    @media (max-width: $break-xs) {
+        font-size: 16px;
+    }
+}
